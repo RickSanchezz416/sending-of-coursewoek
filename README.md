@@ -1,4 +1,4 @@
-# sending-of-coursewoрk
+# sending-of-coursework
 This is a coursework submission system
  
 ## Getting Started
