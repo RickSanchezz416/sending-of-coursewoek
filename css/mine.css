@@ -1,0 +1,95 @@
+body{
+    background-color: #EEF0F2;
+}
+#form_log_in{
+    position: fixed !important;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -150px;
+    width: 300px;
+}
+#logo, h1#header_registration_page{
+    position: fixed !important;
+    top: 34%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -170px;
+    width: 400px;
+    font-size: 30px;
+    display: flex;
+}
+.add-new-course-work-h1{
+    width: 28%;
+    display: flex;
+    margin: 0 auto;
+}
+#btn_log_in, #btn_registration{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#btn_registration_page_registration{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#btn-back{
+    margin: 25px 0 0 25px;
+}
+#form-registration{
+    position: fixed !important;
+    top: 50%;
+    left: 25%;
+    margin-top: -50px;
+    width: 50%;
+}
+#header_registration_page{
+    margin-top: 10%;
+}
+#registration_error_message, #log_error_message{
+    position: fixed;
+    bottom: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+.course_works_table {
+    position: absolute !important;
+    top: 20%;
+    left: 25%;
+    width: 50% !important;
+}
+#add_course_work {
+    position: fixed !important;
+    top: 50%;
+    left: 5%;
+    width: 15%;
+}
+#top_menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999999;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+    border-radius: 0;
+}
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.btn-add-course-work{
+    margin-bottom: 10px !important;
+}
+.error-message-add-new-coursework{
+    top: 50%;
+    width: 60%;
+    left: 20%;
+}
+.form-add-new-coursework{
+    top: 40%;
+}
