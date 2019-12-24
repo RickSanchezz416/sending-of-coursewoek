@@ -93,3 +93,12 @@ body{
 .form-add-new-coursework{
     top: 40%;
 }
+.title-if-nothing-to-show {
+    text-align: center;
+    margin-top: 10%;
+}
+.add-new-course-work-btn {
+    display: block !important ;
+    margin: 0 auto !important;
+    width: 136px;
+}

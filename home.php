@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" href="css/mine.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
 <div id="top_menu" class="ui menu">
@@ -55,7 +55,7 @@
                 }
             }
     } else {
-        echo "<h2>You have no works to show.</h2> " . "<a class='ui yellow button' href='AddCourseWork.php'>" . "Add new Work" . "</a>";
+        echo "<h2 class='title-if-nothing-to-show'>You have no works to show.</h2> " . "<a class='ui yellow button add-new-course-work-btn' href='AddCourseWork.php'>" . "Add new Work" . "</a>";
     }
 ?>
 </body>

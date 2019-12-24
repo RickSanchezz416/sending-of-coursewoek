@@ -11,7 +11,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
         <link rel="stylesheet" href="css/mine.css">
-        <title>Document</title>
+        <title>Add mew course work</title>
     </head>
     <body>
     <div id="top_menu" class="ui menu">
@@ -54,7 +54,7 @@
             $errors[] = 'You must enter a Title. :) ';
         }
         if(empty($_FILES['file']['name'])) {
-            $errors[] = 'You must enter a File. :) ';
+            $errors[] = 'You must upload a file. :) ';
         }
 
         if (empty($errors) == true) {
